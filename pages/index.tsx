@@ -10,12 +10,11 @@ interface Props {
   posts: [Post];
 }
 export default function Home({ posts }: Props) {
-  console.log("here");
   
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
-        <title>Medium Blog</title>
+        <title>DashNode</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

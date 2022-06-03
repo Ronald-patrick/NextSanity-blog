@@ -10,7 +10,6 @@ interface Props {
 }
 
 const Post = ({ post }: Props) => {
-  console.log(post);
 
   return (
     <main>
